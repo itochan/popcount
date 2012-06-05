@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["itochan315@gmail.com"]
   gem.description   = %q{This is library PopCount on Ruby.}
   gem.summary       = %q{PopCount on Ruby.}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/itochan/popcount"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
