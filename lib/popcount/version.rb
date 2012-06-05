@@ -1,3 +1,3 @@
-module PopCount
+class PopCount
   VERSION = "0.0.1"
 end
