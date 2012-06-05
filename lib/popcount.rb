@@ -1,4 +1,5 @@
 require "popcount/version"
+require File.join(File.dirname(__FILE__), "..", "ext", "popcount")
 
 module PopCount
   # Your code goes here...
