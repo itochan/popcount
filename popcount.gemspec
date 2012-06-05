@@ -13,5 +13,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "popcount"
   gem.require_paths = ["lib"]
+  gem.extensions    = ["ext/extconf.rb"]
   gem.version       = PopCount::VERSION
 end
