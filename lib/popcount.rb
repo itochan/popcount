@@ -1,5 +1,5 @@
 require "popcount/version"
 
-module Popcount
+module PopCount
   # Your code goes here...
 end
